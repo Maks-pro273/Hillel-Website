@@ -1,0 +1,623 @@
+body{
+background: #EFEFF2;
+margin: 0;
+padding: 0;
+color: #191910;
+font: 400 18px/28px Inter, sans-serif;
+}
+ul{
+margin: 0;
+padding: 0;
+}
+p{
+	margin: 0;
+padding: 0;
+}
+a{
+text-decoration: none;
+color: #191910;
+}
+ul{
+list-style: none;
+}
+
+button{
+	cursor: pointer;
+}
+.container{
+width: 1440px;
+margin: 0 auto;
+}
+
+.header{
+display: flex;
+padding: 36px 0 0;
+justify-content: space-between;
+align-items: center;
+}
+.header__box{
+display: flex;
+align-items: center;
+}
+.nav__list{
+display: flex;
+list-style: none;
+gap: 48px;
+padding: 0;
+margin: 0;
+}
+.list-footer{
+display: flex;
+flex-grow: 1;
+justify-content: space-between;
+}
+.link{
+color: #191910;
+text-decoration: none;
+font-weight: 600;
+}
+.btn-box{
+display: flex;
+gap: 48px;
+align-items: center;
+}
+.nav{
+display: flex;
+justify-content: center;
+align-item: center;
+}
+.Logo-box{
+padding: 0 68px 0 0;
+}
+.logo{
+font-weight: 800;
+font-size: 24px;
+line-height: 30px;
+display: flex;
+align-items: center;
+gap: 14px;
+color: #19191C;
+text-decoration: none;
+}
+.header__link{
+color: #191910;
+font-size: 18px;
+line-height: 22px;
+font-weight: 600;
+text-decoration: none;
+}
+.header__btn{
+background: #19191C;
+color: #EFEFF2;
+padding: 12px 37px;
+text-decoration: none;
+font-size: 18px;
+line-height: 22px;
+font-weight: 700;
+width: fit-content;
+}
+
+
+/* Основна частина */
+/* Перший екран */
+
+.h1-bold{
+	font-size: 56px;
+	line-height: 70px;
+	font-weight: 700;
+	margin: 0;
+}
+.text-bold{
+	font-weight: 700;
+}
+
+.Purpul{
+	font-weight: 700;
+	color: #504DEE;
+}
+
+.button{
+	padding: 16px 37px 16px 37px;
+	background-color: #504DEE;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FBFBFC;
+	border: none;
+}
+.margin-up{
+	margin-top: 60px;
+}
+.Home-sale{
+	margin-top: 110px;
+	margin-bottom: 8px;
+}
+
+.offer{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 0 230px;
+	margin-top: 36px;
+	background: url(Image/Man.png) 100% 100% no-repeat;
+}
+
+.background_image{
+	background: url(image/Ellipse21.png) 100% 0% no-repeat;
+}
+
+.offer-holder{
+	width: 640px;
+	padding-top: 80px;
+	background: url(Image/Ellipse20.png) 100% 100% no-repeat;
+}
+.offer__list{
+	position: relative;
+}
+.offer__item{
+	padding: 16px 36px;
+	border: 2px solid #19191C;
+	position: absolute;
+	font-weight: 600;
+	top: 0px;
+	right: 0px;
+}
+
+.marketer{
+	top: 230px;
+	right: 0px;
+}
+.Illustrator{
+	top: 60px;
+	right: 230px;
+}
+.Animator{
+	top: 150px;
+	right: 500px;
+}
+.Programmer{
+	top: 300px;
+	right: 700px;
+}
+.Designer{
+	top: 500px;
+	right: 800px;
+}
+.Photographer{
+	top: 700px;
+	right: 700px;
+}
+
+
+
+/* Другий блок */
+.learn__background{
+	background-color: #19191C;
+}
+.bloks-margin{
+	padding: 120px 0;
+}
+.white{
+	color: #FBFBFC;
+}
+.learn__text{
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.margin-bottom-4px{
+	margin-bottom: 4px;
+}
+
+.width-600px{
+	width: 600px;
+}
+
+.learn{
+	display: flex;
+	justify-content:space-between;
+	padding: 120px 0 116px 0;
+	gap: 48px;
+	flex-wrap: wrap;
+}
+
+.learn__counters{
+	display: flex;
+	gap: 86px;
+	flex-wrap: wrap;
+}
+
+.learn__counter-item{
+	border-bottom: 4px solid #FBFBFC;
+	width: 178px;
+	height: 120px;
+}
+
+
+/* Третій блок */
+
+.background-white{
+	background-color: #FBFBFC;
+}
+.discover__list{
+	display: flex;
+	gap: 48px;
+}
+
+.discover__button{
+	background: none;
+	border: none;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+.filter-bar{
+	display: flex;
+	justify-content: space-between;
+	margin: 39px 0 65px 0;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.secondary-button{
+	display: flex;
+	gap: 18px;
+	font-weight: 700;
+	align-items: center;
+}
+
+
+.dicover__cards{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.dicover__card{
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+}
+
+.text__holder{
+	display: flex;
+	flex-direction: column;
+}
+.card_gap{
+	gap: 11px;
+}
+.offer__gap{
+	gap: 18px;
+}
+.discover_sub_title{
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 700;
+	padding: 0;
+	margin: 0;
+}
+
+.discover__card-length{
+	color: #6D6D77;
+}
+
+
+/* Четвертий блок */
+
+.background_sub_accent{
+	background-color: #DEEFE4;
+}
+
+.find-program-text{
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+}
+
+.form{
+	display: flex;
+	justify-content:space-between;
+}
+input{
+	margin: 0;
+	padding: 0 0 6px 0;
+	color: #191910;
+	font: 400 18px/28px Inter, sans-serif;
+	background: none;
+	border: none;
+}
+.input-field{
+	border-bottom: 2px solid #19191C;
+}
+
+.find-program-form{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	gap: 68px;
+	padding: 0;
+	margin: 0;
+}
+.input-holder{
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+}
+
+
+
+
+
+
+
+/* Мобільна адаптація */
+
+
+
+@media screen and (max-width: 1439px){
+	.container{
+		padding: 0 20px;
+		width: auto;
+	}
+	.footer-body{
+		width: 97vw;
+		gap: 160px;
+
+
+	}
+	.learn__counters{
+		gap: 48px;
+	}
+
+	.h1-bold{
+		font-size: 52px;
+		line-height: 65px;
+	}
+	.discover__list{
+	    gap: 16px;
+    	flex-wrap: wrap;
+	}
+	.header{
+	    gap: 24px;
+    	flex-wrap: wrap;
+	}
+	.dicover__cards{
+		justify-content: center;
+	}
+	.find-program-form{
+	   max-width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.width-600px{
+		width: auto;
+	}
+	.h1-bold{
+		font-size: 44px;
+		line-height: 53px;
+	}
+	body, .header__btn, .header__link, .button{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.find-program-form{
+		width: 100%;
+	}
+	.list-footer{
+		gap: 48px;
+	}
+	.form{
+		flex-wrap: wrap;
+		gap: 48px;
+	}
+	.find-program-text{
+		gap: 16px;
+	}
+	.offer{
+		background: url(Image/Man.png) 84% -313% no-repeat;
+	}
+	.footer-info{
+		font-size: 18px !important;
+	}
+}
+@media screen and (max-width: 380px){
+	.dicover__card{
+		width: 100%;
+	}
+ } 
+
+
+@media screen and (max-width: 620px){
+	.offer{
+		background: none;
+		padding-bottom: 120px;
+	}
+	.first-colomn{
+		flex-direction: column; !important;
+		flex-grow: 0;
+		flex-wrap: wrap;
+	}
+	.logo{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.Logo-box{
+		padding: 0;
+	}
+
+	.header__box{
+		flex-wrap: wrap;
+		gap: 24px;
+	}
+	.nav__list{
+		justify-content: flex-end;
+	}
+	.header__box{
+		flex-grow: 1;
+	}
+	.btn-box{
+		flex-grow: 1;
+    	justify-content: space-between;
+    	gap: 0;
+	}
+	.nav{
+		flex-grow: 1;
+		justify-content: right;
+	}
+}
+
+
+@media screen and (max-width: 453px) {
+	.nav{
+		justify-content: left;
+	}
+}
+
+
+/* Для футтера */
+
+@media screen and (max-width: 1056px){
+	.first-colomn{
+		flex-direction: row !important;
+		flex-grow: 1;
+	}
+	.Logo-footer-box{
+		margin: 0 !important;
+	}
+	.footer-info{
+		flex-direction: row !important;
+	}
+	.footer-body{
+		gap: 64px !important;
+		flex-wrap: wrap;
+		width: auto;
+	}
+	.list-footer{
+		flex-grow: 1;
+        justify-content: space-between;
+	}
+	.offer-holder{
+    	background: none;
+    	width: auto;
+    	padding-top: 40px;
+    }
+	.offer__list{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 535px){
+	.footer-info{
+		margin: 0 !important;
+		flex-wrap: wrap;
+	}
+	.first-colomn{
+		gap: 24px;
+	}
+	.list-footer{
+		flex-wrap: wrap;
+	}
+	.copyright{
+		flex-wrap: wrap;
+		gap: 16px !important;
+		justify-content: start  !important;
+	}
+	.header{
+		 padding: 24px 0 0;
+	}
+}
+
+
+.footer{
+background-color: #19191c;
+padding: 60px 0;
+display: flex;
+flex-direction: column;
+gap: 100px;
+
+}
+
+
+.footer-body{
+display: flex;
+gap: 200px;
+}
+.links-row{
+display: flex;
+
+}
+
+
+
+
+
+
+
+.logo-footer{
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+gap: 14px;
+color: #FBFBFC;
+}
+.Logo-footer-box{
+margin: 0 0 43px 0;
+}
+
+
+
+.first-colomn{
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.footer-info{
+display: flex;
+flex-direction: column;
+gap: 28px;
+font-size: 24px;
+font-weight: 600;
+margin: auto;
+}
+.weight-400{
+font-weight: 400;
+color: #FBFBFC;
+}
+.footer-menu-element{
+padding: 0;
+margin: 0 0 12px 0;
+}
+.footer-menu{
+margin: 0;
+padding: 0;
+}
+.sitemap{
+display: flex;
+flex-direction: column;
+}
+.link-header{
+margin: 0;
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 28px;
+color: #FBFBFC;
+}
+.copyright{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 28px;
+color: #6D6D77
+}
+.a-gray{
+color: #6D6D77
+}
+footer a{
+color: #FBFBFC;
